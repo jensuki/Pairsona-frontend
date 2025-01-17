@@ -6,7 +6,7 @@ This is the frontend React application for `Pairsona`, a platform that matches u
 
 ## Deployment
 
-Visit [Pairsona](https://pairsona.onrender.com)
+Visit [Pairsona](https://pairsona-frontend.onrender.com)
 
 ---
 
