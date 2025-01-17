@@ -1,0 +1,103 @@
+.PendingRequests,
+.ConnectedUsers {
+    padding: 0 20px;
+}
+
+/* shared list styles */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.connection-item,
+.pending-request-item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--neutral-bg);
+    padding: 10px;
+    margin: 15px auto;
+    border-radius: var(--border-radius-md);
+    box-shadow: 0 2px 6px var(--box-shadow);
+    max-width: var(--max-width-lg);
+    box-sizing: border-box;
+}
+
+/* shared button styles */
+
+.connection-actions,
+.request-actions {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 8px 10px;
+}
+
+.decline-btn,
+.remove-btn {
+    background-color: rgb(221, 69, 84);
+    color: var(--btn-white-text);
+}
+
+.decline-btn:hover,
+.remove-btn:hover {
+    background-color: rgb(180, 40, 56);
+}
+
+/* pendingrequests styles */
+
+.request-info {
+    display: flex;
+    align-items: center;
+}
+
+.requester-name {
+    color: var(--primary-blue);
+    margin-right: 5px;
+}
+
+.requester-name:hover {
+    text-decoration: var(--text-underline);
+}
+
+.PendingRequests img,
+.ConnectedUsers img {
+    margin-top: 0;
+    width: 260px;
+    height: 200px;
+}
+
+/* connectedusers styles */
+
+.ConnectedUsers .connection-info {
+    display: flex;
+    align-items: center;
+    font-size: var(--font-size-base);
+}
+
+.ConnectedUsers .profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: var(--border-radius-md);
+    margin-right: 15px;
+}
+
+.ConnectedUsers .user-name {
+    color: var(--primary-blue);
+    font-weight: var(--font-bold);
+}
+
+.ConnectedUsers .user-name:hover {
+    text-decoration: var(--text-underline);
+}
+
+.ConnectedUsers .notification-dot {
+    position: absolute;
+    top: 16px;
+    right: 78px;
+    z-index: 1;
+}

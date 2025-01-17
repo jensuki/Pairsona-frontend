@@ -1,0 +1,59 @@
+.Navbar {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.Navbar-brand img {
+    margin: 10px;
+    width: 40px;
+    height: 26px;
+}
+
+.Navbar-links {
+    list-style: none;
+    display: flex;
+    gap: .7rem;
+}
+
+.Navbar-links a {
+    text-decoration: none;
+    color: #211f1f;
+    font-weight: 450;
+    transition: color 0.2s ease;
+
+    &:hover {
+        color: var(--primary-green);
+    }
+}
+
+.Navbar-links a.active {
+    font-weight: 550;
+    color: var(--primary-blue);
+}
+
+.Navbar .logout-btn {
+    font-family: inherit;
+    background: none;
+    cursor: pointer;
+    color: black;
+    padding: 0;
+}
+
+.nav-item {
+    position: relative;
+    margin-right: 12px;
+}
+
+.notification-dot {
+    position: absolute;
+    top: 8px;
+    right: -10px;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(247, 76, 76);
+    border-radius: 50%;
+}

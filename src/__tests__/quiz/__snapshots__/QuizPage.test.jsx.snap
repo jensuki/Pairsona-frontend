@@ -1,0 +1,68 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`QuizPage component > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="QuizPage"
+  >
+    <div
+      class="progress-bar-container"
+    >
+      <div
+        class="progress-bar"
+        style="width: 50%;"
+      />
+    </div>
+    <div
+      class="question-container"
+    >
+      <h4>
+        Do you make lists or rely on memory?
+      </h4>
+      <div
+        class="options-container"
+      >
+        <label
+          class="option"
+        >
+          <input
+            aria-label="makes lists"
+            name="1"
+            type="radio"
+            value="S"
+          />
+          <span>
+            makes lists
+          </span>
+        </label>
+        <label
+          class="option"
+        >
+          <input
+            aria-label="relies on memory"
+            name="1"
+            type="radio"
+            value="N"
+          />
+          <span>
+            relies on memory
+          </span>
+        </label>
+      </div>
+    </div>
+    <div
+      class="navigation-buttons"
+    >
+      <button
+        aria-label="Next question"
+        class="nav-button"
+        disabled=""
+      >
+        <i
+          class="fas fa-arrow-right fa-2x"
+        />
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

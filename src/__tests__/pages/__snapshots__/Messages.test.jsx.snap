@@ -1,0 +1,29 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Messages component > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Messages"
+  >
+    <h2>
+      Chat with user3
+    </h2>
+    <div
+      class="message-history"
+    />
+    <form>
+      <input
+        placeholder="Type your message..."
+        required=""
+        type="text"
+        value=""
+      />
+      <button
+        type="submit"
+      >
+        Send
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;

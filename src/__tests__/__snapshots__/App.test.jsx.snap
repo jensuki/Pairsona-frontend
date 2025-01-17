@@ -1,0 +1,208 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App component > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <section
+      aria-atomic="false"
+      aria-label="Notifications Alt+T"
+      aria-live="polite"
+      aria-relevant="additions text"
+      class="Toastify"
+    />
+    <nav
+      class="Navbar"
+    >
+      <div
+        class="Navbar-brand"
+      >
+        <a
+          aria-label="Home"
+          href="/"
+        >
+          <img
+            alt="Pairsona-Logo"
+            class="Navbar-logo"
+            src="/src/assets/logos/pairsona_logo.png"
+          />
+        </a>
+      </div>
+      <ul
+        class="Navbar-links"
+      >
+        <li
+          class="nav-item"
+        >
+          <a
+            class=""
+            data-discover="true"
+            href="/login"
+          >
+            Login
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            class=""
+            data-discover="true"
+            href="/signup"
+          >
+            Sign Up
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      class="Homepage"
+    >
+      <section
+        class="hero"
+        data-aos="fade-up"
+      >
+        <h1>
+          Authentic Connections
+          <br />
+           For Every Journey
+        </h1>
+        <p>
+          Meet like-minded people who align with your personality and values. Whether it's love, friendship, or meaningful chats, your connections - your way.
+        </p>
+        <a
+          class="cta-button"
+          data-discover="true"
+          href="/quiz"
+        >
+          Take your MBTI Personality Quiz
+        </a>
+        <img
+          alt="Guests Home avatar"
+          class="logo-lg"
+          src="/src/assets/logos/pairsona_logo_large.png"
+        />
+      </section>
+      <hr />
+      <section
+        class="how-it-works"
+        data-aos="fade-left"
+      >
+        <h2>
+          How It Works
+        </h2>
+        <div
+          class="steps"
+        >
+          <div
+            class="step"
+          >
+            <h3>
+              1. Sign Up
+            </h3>
+            <p>
+              Create an account and join our community.
+            </p>
+          </div>
+          <div
+            class="step"
+          >
+            <h3>
+              2. Take the Quiz
+            </h3>
+            <p>
+              Discover your MBTI type with our simple quiz.
+            </p>
+          </div>
+          <div
+            class="step"
+          >
+            <h3>
+              3. Get Matched
+            </h3>
+            <p>
+              Find compatible people based on personality.
+            </p>
+          </div>
+          <div
+            class="step"
+          >
+            <h3>
+              4. Connect
+            </h3>
+            <p>
+              Connect and get to know your matches through our chat!
+            </p>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section
+        class="features"
+        data-aos="fade-up"
+      >
+        <h2>
+          Why Choose Us?
+        </h2>
+        <ul>
+          <li>
+            <strong>
+              Personality-Based Matches
+            </strong>
+             – We pair you based on MBTI compatibility.
+          </li>
+          <li>
+            <strong>
+              Flexible Connections
+            </strong>
+             – Looking for friends or something more? Your choice.
+          </li>
+          <li>
+            <strong>
+              Privacy-Focused
+            </strong>
+             – Your data, your control.
+          </li>
+        </ul>
+      </section>
+      <hr />
+      <section
+        class="testimonials"
+      >
+        <blockquote>
+          This app made it easy to connect with fellow introverts in a discreet and comfortable way.
+        </blockquote>
+        <blockquote>
+          A welcoming space with plenty of opportunities to form genuine friendships.
+        </blockquote>
+      </section>
+      <section
+        class="final-cta"
+      >
+        <h2>
+          Ready to meet your match?
+        </h2>
+        <a
+          class="cta-button"
+          data-discover="true"
+          href="/signup"
+        >
+          Get Started
+        </a>
+        <p
+          class="login-link"
+        >
+          Already have an account? 
+          <a
+            data-discover="true"
+            href="/login"
+          >
+            Log in
+          </a>
+        </p>
+      </section>
+    </div>
+  </div>
+</DocumentFragment>
+`;

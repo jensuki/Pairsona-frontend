@@ -1,0 +1,53 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Results component > matches snapshot with results 1`] = `
+<DocumentFragment>
+  <div
+    class="ResultsPage"
+  >
+    <div
+      class="results-container"
+    >
+      <h2>
+        Your result:
+      </h2>
+      <h3>
+        <strong>
+          INFJ
+        </strong>
+      </h3>
+      <h4>
+        The Advocate
+      </h4>
+      <p>
+        Percentage of Population: 1.5%
+      </p>
+      <p
+        class="result-desc"
+      >
+        Advocates are quiet visionaries, often serving as inspiring and tireless idealists.
+      </p>
+      <a
+        href="https://www.16personalities.com/infj-personality"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Learn more about INFJ
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Results component > matches snpashot initially 1`] = `
+<DocumentFragment>
+  <div
+    class="loading-container"
+    role="status"
+  >
+    <i
+      class="fas fa-spinner fa-spin fa-3x"
+    />
+  </div>
+</DocumentFragment>
+`;

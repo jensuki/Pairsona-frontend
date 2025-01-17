@@ -1,0 +1,72 @@
+.UserProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: var(--max-width-md);
+    margin: 40px auto;
+    padding: 0;
+    position: relative;
+}
+
+.UserProfile .card {
+    margin: 10px auto;
+}
+
+.UserProfile h1 {
+    margin-top: 0;
+}
+
+.UserProfile .btn-cancel {
+    background: rgb(218, 122, 105);
+
+    &:hover {
+        background: rgb(176, 98, 84);
+    }
+}
+
+.btn-accept {
+    background: rgb(82, 153, 200);
+
+    &:hover {
+        background: rgb(67, 120, 155);
+    }
+}
+
+.btn-connected {
+    background: rgb(51, 82, 165);
+
+    &:hover {
+        background: rgb(40, 69, 150);
+        cursor: not-allowed;
+    }
+}
+
+/* user card connection status */
+
+.connected-options {
+    display: flex;
+    gap: 10px;
+}
+
+/* matched user mbti detail */
+
+.card-right {
+    border: 2px solid rgb(246, 196, 204);
+}
+
+/* span side by side on large screens */
+
+@media (min-width: 768px) {
+    .UserProfile {
+        flex-direction: row;
+        align-items: flex-start;
+        max-width: 700px;
+        justify-content: center;
+    }
+
+    .card-right {
+        width: auto;
+        flex: 1;
+    }
+}

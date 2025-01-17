@@ -1,0 +1,171 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SignupForm component > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="FormContainer SignupForm"
+  >
+    <h1>
+      Sign Up
+    </h1>
+    <form
+      autocomplete="off"
+      enctype="multipart/form-data"
+    >
+      <div
+        class="form-group"
+      >
+        <label
+          for="username"
+        >
+          Username
+        </label>
+        <input
+          autocomplete="new-username"
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          for="password"
+        >
+          Password
+        </label>
+        <input
+          autocomplete="new-password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required=""
+          type="password"
+          value=""
+        />
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          for="firstName"
+        >
+          First Name
+        </label>
+        <input
+          id="firstName"
+          name="firstName"
+          placeholder="Enter your first name"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          for="lastName"
+        >
+          Last Name
+        </label>
+        <input
+          id="lastName"
+          name="lastName"
+          placeholder="Enter your last name"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          for="email"
+        >
+          Email
+        </label>
+        <input
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required=""
+          type="email"
+          value=""
+        />
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          for="birthDate"
+        >
+          Birth Date:
+        </label>
+        <input
+          id="birthDate"
+          name="birthDate"
+          required=""
+          type="date"
+          value=""
+        />
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          for="location"
+        >
+          Location
+        </label>
+        <input
+          data-testid="autocomplete"
+          id="location"
+          placeholder="Type a city"
+          required=""
+        />
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          for="bio"
+        >
+          Bio
+        </label>
+        <textarea
+          id="bio"
+          name="bio"
+          placeholder="Tell us about yourself (optional)"
+        />
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          for="profilePic"
+        >
+          Profile Picture
+        </label>
+        <input
+          accept="image/*"
+          id="profilePic"
+          name="profilePic"
+          type="file"
+        />
+      </div>
+      <button
+        class="signup-btn"
+        type="submit"
+      >
+        Signup
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;

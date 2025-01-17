@@ -1,0 +1,56 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConnectedUsers component > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ConnectedUsers"
+  >
+    <h2>
+      Your Connections
+    </h2>
+    <ul
+      class="connections-list"
+    >
+      <li
+        class="connection-item"
+      >
+        <div
+          class="connection-info"
+        >
+          <img
+            alt="User Three"
+            class="profile-pic"
+            loading="lazy"
+            src="/assets/default_pic.png"
+          />
+          <div
+            class="user-details"
+          >
+            <a
+              class="user-name"
+              data-discover="true"
+              href="/profile/user3"
+            >
+              User Three
+            </a>
+          </div>
+        </div>
+        <div
+          class="connection-actions"
+        >
+          <button
+            class="chat-btn"
+          >
+            Chat with User
+          </button>
+          <button
+            class="remove-btn"
+          >
+            Remove
+          </button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;

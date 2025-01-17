@@ -1,0 +1,134 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Navbar component > matches snapshot for anon user 1`] = `
+<DocumentFragment>
+  <nav
+    class="Navbar"
+  >
+    <div
+      class="Navbar-brand"
+    >
+      <a
+        aria-label="Home"
+        href="/"
+      >
+        <img
+          alt="Pairsona-Logo"
+          class="Navbar-logo"
+          src="/src/assets/logos/pairsona_logo.png"
+        />
+      </a>
+    </div>
+    <ul
+      class="Navbar-links"
+    >
+      <li
+        class="nav-item"
+      >
+        <a
+          class=""
+          data-discover="true"
+          href="/login"
+        >
+          Login
+        </a>
+      </li>
+      <li
+        class="nav-item"
+      >
+        <a
+          class=""
+          data-discover="true"
+          href="/signup"
+        >
+          Sign Up
+        </a>
+      </li>
+    </ul>
+  </nav>
+</DocumentFragment>
+`;
+
+exports[`Navbar component > matches snapshot for logged in user 1`] = `
+<DocumentFragment>
+  <nav
+    class="Navbar"
+  >
+    <div
+      class="Navbar-brand"
+    >
+      <a
+        aria-label="Home"
+        href="/"
+      >
+        <img
+          alt="Pairsona-Logo"
+          class="Navbar-logo"
+          src="/src/assets/logos/pairsona_logo.png"
+        />
+      </a>
+    </div>
+    <ul
+      class="Navbar-links"
+    >
+      <li
+        class="nav-item"
+      >
+        <a
+          aria-label="View Profile"
+          class=""
+          data-discover="true"
+          href="/profile"
+        >
+          Test
+        </a>
+      </li>
+      <li
+        class="nav-item"
+      >
+        <a
+          aria-label="Find Matches"
+          class=""
+          data-discover="true"
+          href="/matches"
+        >
+          Find Matches
+        </a>
+      </li>
+      <li
+        class="nav-item"
+      >
+        <a
+          aria-label="View Notifications"
+          class=""
+          data-discover="true"
+          href="/requests"
+        >
+          Notifications
+        </a>
+      </li>
+      <li
+        class="nav-item"
+      >
+        <a
+          aria-label="View Connections"
+          class=""
+          data-discover="true"
+          href="/connections"
+        >
+          Connections
+        </a>
+      </li>
+      <li
+        class="nav-item"
+      >
+        <button
+          class="logout-btn"
+        >
+          Log Out
+        </button>
+      </li>
+    </ul>
+  </nav>
+</DocumentFragment>
+`;

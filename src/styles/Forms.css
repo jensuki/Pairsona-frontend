@@ -1,0 +1,67 @@
+/* shared styles */
+.FormContainer {
+    max-width: var(--max-width-sm);
+    margin: 0 auto;
+}
+
+.FormContainer h1 {
+    text-align: left;
+    margin-top: 0;
+}
+
+.FormContainer .form-group {
+    margin-bottom: 15px;
+}
+
+.FormContainer button {
+    display: flex;
+    padding: .6rem;
+    color: var(--btn-white-text);
+    border: none;
+    font-size: var(--font-size-base);
+    cursor: pointer;
+    background-color: var(--primary-blue);
+}
+
+.FormContainer button:hover {
+    background-color: #0056b3;
+}
+
+/* loginform styles */
+.LoginForm .login-btn {
+    margin-top: 1.4rem;
+}
+
+.LoginForm .signup-link {
+    margin-top: 1rem;
+    font-size: var(--font-size-base);
+    text-align: center;
+}
+
+.LoginForm .signup-link a {
+    color: var(--primary-blue);
+    font-weight: 600;
+
+    &:hover {
+        text-decoration: var(--text-underline);
+    }
+}
+
+/* signupform styles */
+.SignupForm form div {
+    margin-bottom: 15px;
+}
+
+/* profileform styles */
+.form-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.ProfileForm .cancel-btn {
+    background: gray;
+
+    &:hover {
+        background: rgb(102, 102, 102);
+    }
+}

@@ -1,0 +1,72 @@
+.Messages {
+    max-width: var(--max-width-sm);
+}
+
+.Messages h2 {
+    margin-top: 0;
+}
+
+.message-history {
+    max-height: 300px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+}
+
+.message {
+    padding: .1rem 1rem .7rem 1rem;
+    margin: .5rem 0;
+    border-radius: var(--border-radius-md);
+    position: relative;
+}
+
+.sent {
+    background: linear-gradient(to left, #d1e7dd 60%, transparent);
+    text-align: right;
+    border-radius: var(--border-radius-md);
+}
+
+.sent::before {
+    content: '';
+    position: absolute;
+    top: 52px;
+    right: -15px;
+    border-width: 10px 0px 10px 20px;
+    border-style: solid;
+    border-color: transparent transparent transparent #d1e7dd;
+}
+
+.received {
+    background: linear-gradient(to right, #f8d7da 60%, transparent);
+    text-align: left;
+    border-radius: var(--border-radius-md);
+}
+
+.received::before {
+    content: '';
+    position: absolute;
+    bottom: 15px;
+    left: -15px;
+    border-width: 10px 20px 10px 0px;
+    border-style: solid;
+    border-color: transparent #f8d7da transparent transparent;
+}
+
+.Messages form {
+    display: flex;
+    gap: .5rem;
+    max-width: calc(var(--max-width-sm) - 25px);
+    margin: 0 auto;
+}
+
+.Messages input[type="text"] {
+    flex-grow: 1;
+    padding: .5rem;
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius-sm);
+}
+
+.Messages button {
+    padding: .5rem .8rem;
+}

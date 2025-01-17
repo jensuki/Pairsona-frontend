@@ -1,0 +1,30 @@
+.ResultsPage {
+    max-width: var(--max-width-md);
+}
+
+.ResultsPage h2 {
+    font-size: 1.2rem;
+    margin: 0 0 20px 0;
+}
+
+.ResultsPage h3 {
+    font-size: 1.4rem;
+}
+
+.ResultsPage h4 {
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.result-desc {
+    font-size: 1.4rem;
+}
+
+.ResultsPage strong {
+    background: rgb(115, 102, 104);
+    padding: .3rem .7rem;
+    border-radius: var(--border-radius-md);
+    font-size: 1.5em;
+    color: white;
+}

@@ -1,0 +1,119 @@
+.QuizPage {
+    max-width: var(--max-width-md);
+}
+
+.question-container h4 {
+    margin-top: 50px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.options-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    border-radius: var(--border-radius-lg);
+    cursor: pointer;
+    transition: var(--transition-bg);
+    background-color: #e0e0e0;
+    margin-bottom: 25px;
+}
+
+/* choices */
+.option span {
+    font-weight: 500;
+    padding: 13px;
+}
+
+/* selected choice */
+input[type="radio"]:checked+span {
+    color: var(--btn-white-text);
+    background-color: var(--primary-green);
+    padding: 13px;
+    border-radius: var(--border-radius-lg);
+}
+
+.option input[type="radio"] {
+    display: none;
+}
+
+.option:hover {
+    background-color: var(--primary-green);
+    color: white;
+}
+
+/* navigation buttons */
+.navigation-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.nav-button {
+    background: transparent;
+    color: black;
+    font-size: .6rem;
+
+    &:hover {
+        color: black;
+        background: transparent;
+    }
+}
+
+.submit-button {
+    font-size: 1.1em;
+    margin: 0;
+    cursor: pointer;
+    background-color: rgb(95, 82, 151);
+    color: var(--btn-white-text);
+    border: none;
+    border-radius: var(--border-radius-sm);
+
+    &:hover {
+        background-color: rgb(75, 72, 147);
+        transition: var(--transition-bg);
+        animation: wiggle .4s ease-in;
+    }
+}
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-5deg);
+    }
+
+    50% {
+        transform: rotate(3deg);
+    }
+
+    75% {
+        transform: rotate(-2deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.progress-bar-container {
+    width: 100%;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: var(--border-radius-sm);
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 25px;
+    background-color: var(--primary-green);
+    transition: width 0.3s ease-in-out;
+}

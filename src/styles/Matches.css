@@ -1,0 +1,60 @@
+.Matches {
+    margin-bottom: 70px;
+}
+
+.matches-prompt {
+    max-width: var(--max-width-lg);
+}
+
+.matches-prompt h1 {
+    font-family: 'Jost';
+    color: #333;
+}
+
+.matches-prompt p {
+    font-size: 1.1rem;
+}
+
+.quiz-btn {
+    display: inline-block;
+    background-color: var(--primary-green);
+    color: var(--btn-white-text);
+    padding: 12px 24px;
+    font-size: var(--font-size-base);
+    font-weight: var(--font-bold);
+    transition: var(--transition-bg);
+}
+
+.quiz-btn:hover {
+    background-color: var(--hover-green);
+}
+
+.Matches h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+}
+
+.mbti {
+    background: rgb(251, 221, 226);
+    padding: 5px;
+    border: 1px solid #cfc2c2;
+    border-radius: var(--border-radius-sm);
+}
+
+.Matches button {
+    align-self: first baseline;
+}
+
+.view-profile {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.no-matches {
+    width: 260px;
+    height: 200px;
+}

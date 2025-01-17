@@ -1,0 +1,70 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`LoginForm component > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="FormContainer LoginForm"
+  >
+    <h1>
+      Log In
+    </h1>
+    <form
+      autocomplete="off"
+    >
+      <div
+        class="form-group"
+      >
+        <label
+          for="username"
+        >
+          Username
+        </label>
+        <input
+          autocomplete="current-username"
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          for="password"
+        >
+          Password
+        </label>
+        <input
+          autocomplete="current-password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required=""
+          type="password"
+          value=""
+        />
+      </div>
+      <button
+        class="login-btn"
+        type="submit"
+      >
+        Log In
+      </button>
+    </form>
+    <p
+      class="signup-link"
+    >
+      New user? 
+      <a
+        data-discover="true"
+        href="/signup"
+      >
+        Create an account
+      </a>
+    </p>
+  </div>
+</DocumentFragment>
+`;

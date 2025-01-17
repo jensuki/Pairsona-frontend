@@ -1,0 +1,101 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Matches component > matches snapshot for user with mbti set 1`] = `
+<DocumentFragment>
+  <div
+    class="Matches"
+  >
+    <h2>
+      Compatible Matches
+    </h2>
+    <div
+      class="cards"
+      data-aos="fade-up"
+    >
+      <div
+        class="card"
+      >
+        <h3
+          class="user-info"
+        >
+          <span>
+            User One
+          </span>
+          <span
+            class="mbti"
+          >
+            ENFP
+          </span>
+        </h3>
+        <hr />
+        <div
+          class="view-profile"
+        >
+          <img
+            alt="User One"
+            class="profile-pic"
+            loading="lazy"
+            src="/assets/default_pic.png"
+          />
+          <button>
+            View Profile
+          </button>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <h3
+          class="user-info"
+        >
+          <span>
+            User Two
+          </span>
+          <span
+            class="mbti"
+          >
+            ENTP
+          </span>
+        </h3>
+        <hr />
+        <div
+          class="view-profile"
+        >
+          <img
+            alt="User Two"
+            class="profile-pic"
+            loading="lazy"
+            src="/assets/default_pic.png"
+          />
+          <button>
+            View Profile
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Matches component > matches snapshot for user without mbti set 1`] = `
+<DocumentFragment>
+  <div
+    class="matches-prompt"
+    data-aos="fade-up"
+  >
+    <h1>
+      Have you taken the quiz?
+    </h1>
+    <p>
+      Discover your MBTI personality type by completing a quick 30-question quiz. Start now and gain insights into your unique personality traits
+    </p>
+    <a
+      class="quiz-btn"
+      data-discover="true"
+      href="/quiz"
+    >
+      Take the Quiz
+    </a>
+  </div>
+</DocumentFragment>
+`;

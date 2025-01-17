@@ -1,0 +1,57 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`UserProfile component > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="UserProfile"
+  >
+    <div
+      class="card"
+    >
+      <h1>
+        Test User
+      </h1>
+      <img
+        alt="Test User"
+        class="profile-pic"
+        loading="lazy"
+        src="/assets/default_pic.png"
+      />
+      <hr />
+      <p>
+        MBTI: 
+        <strong>
+          INFJ
+        </strong>
+      </p>
+      <p>
+        12/31/1999
+      </p>
+      <p>
+        New York, NY
+      </p>
+      <p>
+        testuser@example.com
+      </p>
+      <p>
+        <strong>
+          Bio:
+        </strong>
+         Loves personality tests
+      </p>
+      <a
+        data-discover="true"
+        href="/profile/edit"
+      >
+        <button>
+          Edit Profile
+        </button>
+      </a>
+    </div>
+    <div
+      class="mbti-info"
+      data-aos="fade-left"
+    />
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,77 @@
+:root {
+  font-family: 'Barlow semi condensed', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-image: url('../assets/background/overlapping_faces_wide.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary-green: #398b71;
+  --hover-green: #33745f;
+  --primary-blue: #007bff;
+
+  --neutral-bg: rgba(249, 249, 249, 0.8);
+  --transition-bg: background-color 0.2s ease;
+  --box-shadow: rgba(0, 0, 0, 0.3);
+
+  --border-radius-sm: 5px;
+  --border-radius-md: 10px;
+  --border-radius-lg: 15px;
+  --border-radius-xl: 25px;
+
+  --font-size-base: 1rem;
+  --font-bold: bold;
+  --text-underline: underline;
+
+  --max-width-sm: 400px;
+  --max-width-md: 500px;
+  --max-width-lg: 600px;
+
+  --btn-white-text: white;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  border: none;
+  background-color: var(--primary-green);
+  color: var(--btn-white-text);
+  padding: 6px;
+  border-radius: var(--border-radius-sm);
+  font-family: inherit;
+  cursor: pointer;
+  transition: var(--transition-bg);
+
+  &:hover {
+    background-color: var(--hover-green);
+  }
+}
+
+img {
+  border-radius: var(--border-radius-md);
+  width: 100px;
+  height: 100px;
+
+}
+
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  width: 100%;
+  height: 80px;
+}
+
+a {
+  text-decoration: none;
+  border-radius: var(--border-radius-sm);
+}

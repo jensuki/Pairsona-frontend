@@ -1,0 +1,51 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PendingRequests component > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="PendingRequests"
+  >
+    <h2>
+      Connection Requests
+    </h2>
+    <ul
+      class="pending-requests-list"
+    >
+      <li
+        class="pending-request-item"
+      >
+        <div
+          class="request-info"
+        >
+          <a
+            class="requester-name"
+            data-discover="true"
+            href="/profile/user1"
+          >
+            <strong>
+              User One
+            </strong>
+          </a>
+          <span>
+             wants to connect with you
+          </span>
+        </div>
+        <div
+          class="request-actions"
+        >
+          <button
+            class="accept-btn"
+          >
+            Accept
+          </button>
+          <button
+            class="decline-btn"
+          >
+            Decline
+          </button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
