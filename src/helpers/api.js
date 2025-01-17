@@ -18,18 +18,25 @@ class Api {
     /** add an interceptor for handling 401 errors globally */
     static setupInterceptor(handleExpiredToken) {
         this.axiosInstance.interceptors.response.use(
-            (response) => response,
+            (response) => response, // pass through successful responses
             (error) => {
-                // exclude login request from triggering token expiry toast
-                if (error.response?.status === 401 && error.config.url !== 'auth/token') {
-                    // console.log('401 Unauthorized detected by interceptor.');
-                    handleExpiredToken();
+                const { response, config } = error;
+
+                // check for 401 Unauthorized
+                if (response?.status === 401) {
+                    const isLoginRoute = config.url.includes('/auth/token');
+
+                    // only call handleExpiredToken for non-login routes and 'token expired' messages
+                    if (!isLoginRoute && response?.data?.message === 'Token expired') {
+                        handleExpiredToken();
+                    }
                 }
+
+                // reject all other errors
                 return Promise.reject(error);
             }
         );
     }
-
     /** helper function to make api requests */
     static async request(endpoint, data = {}, method = 'get') {
         // always check token status before each requset
